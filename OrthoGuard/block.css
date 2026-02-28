@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  /* 기본 폰트를 나눔명조로 설정 */
+  font-family: 'Nanum Myeongjo', serif; 
+  display: flex;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  /* 제목은 더 웅장한 Cinzel과 나눔명조 조합 */
+  font-family: 'Cinzel', 'Nanum Myeongjo', serif;
+  color: #d4af37;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.chrysostom-quote {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30sp;
+  color: #c0c0c0;
+  border-left: 3px solid #d4af37; /* 인용구 옆에 금색 선 추가 */
+  padding-left: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.container {
+  background-color: #16213e;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border-top: 5px solid #d4af37; /* 정교회를 상징하는 금색 포인트 */
+  max-width: 600px;
+}
+
+.message-box {
+  background-color: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.chrysostom-quote {
+  font-style: italic;
+  color: #a0a0a0;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.chrysostom-quote span {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+/* 십자가 이미지 스타일 */
+.cross-icon {
+  width: 233px;       /* 크기 조절 (원하는 대로 숫자를 바꿔보세요) */
+  height: auto;       /* 비율 유지 */
+  margin-bottom: 30px; /* 제목과의 간격 */
+  
+  /* 선택사항: 은은하게 금빛으로 빛나는 효과 */
+  filter: drop-shadow(0 0 15px rgba(212, 175, 55, 0.8));
+}
+
+button {
+  background-color: #d4af37;
+  color: #1a1a2e;
+  border: none;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #b5952f;
+}
