@@ -15,7 +15,7 @@
 아직 Chrome 웹 스토어에 등록되지 않은 개발 버전이므로, 아래 단계를 통해 수동으로 설치해야 합니다.
 
 ### 1. 프로젝트 다운로드
-- 이 저장소의 **Code** 버튼을 눌러 `Download ZIP`을 클릭하거나, 터미널에서 다음 명령어를 입력하세요:
+- 이 저장소의 **Release** 아래의 최신 버전을 클릭하여 'OrthoGuardExtension.zip'파일을 다운로드하거나, 터미널에서 다음 명령어를 입력하세요:
   ```bash
   git clone [https://github.com/Wadotu/OrthoGuard.git](https://github.com/Wadotu/OrthoGuard.git)
 ###  2. 브라우저 확장 프로그램 관리 페이지 접속
