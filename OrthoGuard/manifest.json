@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "OrthoGuard",
-  "version": "0.1",
+  "version": "0.11",
   "description": "NSFW, Satanic Website Blocker Extension for Orthodox Christians",
   "permissions": ["storage"],
   "content_scripts": [
@@ -19,3 +19,4 @@
   ]
 
 }
+
