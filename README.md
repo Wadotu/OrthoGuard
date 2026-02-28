@@ -1,2 +1,43 @@
-# OrthoGuard
-NSFW, Satanic Website Blocker Extension for Orthodox Christians
+# OrthoGuard (v4.0)
+
+**OrthoGuard**는 정교회 신자가 인터넷 환경에서 신앙을 지키고 정결한 마음을 유지할 수 있도록 돕는 실시간 웹사이트 차단 확장 프로그램입니다. 유해한 도메인이나 키워드가 감지되면 즉시 접속을 차단하고, 신앙심을 일깨우는 문구와 이콘이 담긴 화면으로 리디렉션합니다.
+
+
+
+## 주요 기능
+- **초경량 도메인 필터링**: 주소창의 URL을 실시간으로 분석하여 0.1초 만에 유해 사이트를 감지합니다.
+- **화이트리스트(안전망)**: Google, YouTube, Github 등 자주 사용하는 안전한 사이트는 예외 처리를 통해 성능 저하 없이 이용 가능합니다.
+- **정교회 테마 차단 화면**: 시각적으로 아름답고 경건한 디자인과 세라핌 로즈 신부님의 가르침을 통해 마음을 다잡게 도와줍니다.
+- **개인 최적화**: `content.js` 파일을 입맛대로 수정하여 본인만의 블랙리스트 키워드를 쉽게 추가할 수 있습니다.
+
+## 설치 방법 (Chrome/Edge 브라우저)
+
+아직 Chrome 웹 스토어에 등록되지 않은 개발 버전이므로, 아래 단계를 통해 수동으로 설치해야 합니다.
+
+### 1. 프로젝트 다운로드
+- 이 저장소의 **Code** 버튼을 눌러 `Download ZIP`을 클릭하거나, 터미널에서 다음 명령어를 입력하세요:
+  ```bash
+  git clone [https://github.com/Wadotu/OrthoGuard.git](https://github.com/Wadotu/OrthoGuard.git)
+###  2. 브라우저 확장 프로그램 관리 페이지 접속
+- 사용 중인 브라우저의 주소창에 아래 주소를 입력합니다.
+
+Chrome: chrome://extensions/
+
+Edge: edge://extensions/
+
+기타 브라우저: 브라우저이름(소문자)://extensions/
+
+###  3. 개발자 모드(Developer Mode) 활성화
+- 페이지 우측 상단에 있는 개발자 모드(Developer mode) 스위치를 켭니다(ON).
+
+스위치를 켜면 상단에 새로운 버튼 메뉴들이 나타납니다.
+
+###  4. 확장 프로그램 로드 (Load Unpacked)
+- 왼쪽 상단의 [압축 해제된 확장 프로그램 로드] (또는 Load unpacked) 버튼을 클릭합니다.
+
+파일 선택창이 뜨면, 아까 압축을 해제한 OrthoGuard 폴더를 선택한 뒤 **[폴더 선택]**을 누릅니다.
+
+### 5. 설치 확인 및 고정 (Pin)
+- 목록에 OrthoGuard가 나타나면 성공입니다.
+
+브라우저 우측 상단의 **퍼즐 아이콘(🧩)**을 눌러 OrthoGuard 옆의 고정(Pin) 아이콘을 클릭하면 실시간 작동 상태를 더 쉽게 확인할 수 있습니다.
