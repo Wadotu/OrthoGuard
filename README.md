@@ -1,43 +1,78 @@
 # OrthoGuard (Alpha Test)
 
-**OrthoGuard**는 정교회 신자가 인터넷 환경에서 신앙을 지키고 정결한 마음을 유지할 수 있도록 돕는 실시간 웹사이트 차단 확장 프로그램입니다. 유해한 도메인이나 키워드가 감지되면 즉시 접속을 차단하고, 신앙심을 일깨우는 문구와 이콘이 담긴 화면으로 리디렉션합니다.
+**OrthoGuard** is a real-time website-blocking browser extension designed to help Orthodox Christians guard their faith and maintain spiritual purity in the digital space. When a harmful domain or keyword is detected, OrthoGuard immediately disrupts the connection and redirects the user to a reflective interface featuring sacred icons and spiritual counsel to help refocus the mind.
+
+---
+
+## Key Features
+
+* **Ultra-Lightweight Domain Filtering**: Real-time URL analysis blocks harmful sites in under 0.1 seconds, ensuring zero noticeable impact on browsing speed.
+* **Built-in Whitelist**: Out-of-the-box exceptions for essential productivity and daily platforms (e.g., Google, YouTube, GitHub) to guarantee uninterrupted workflow.
+* **Orthodox-Themed Block Screen**: Replaces digital distractions with a serene, reverent design and the spiritual wisdom of Father Seraphim Rose to help reset and guard your thoughts.
+* **Easily Customizable**: Highly flexible architecture allows you to easily append personal blacklist keywords or domains directly within the configuration files.
+
+---
+
+## Tech Stack
+
+* JavaScript (Web Extensions API / Manifest V3)
+* HTML5 / CSS3
+
+---
+
+## Installation (Chrome / Edge / Chromium)
+
+Since OrthoGuard is currently in alpha testing and not yet published on the Chrome Web Store, you can install it manually by following these steps:
+
+### 1. Download the Project
+
+* Go to the **Releases** section of this repository and download the latest `OrthoGuardExtension.zip` file, or clone the repository directly using your terminal:
+```bash
+
+```
 
 
 
-## 주요 기능
-- **초경량 도메인 필터링**: 주소창의 URL을 실시간으로 분석하여 0.1초 만에 유해 사이트를 감지합니다.
-- **화이트리스트(안전망)**: Google, YouTube, Github 등 자주 사용하는 안전한 사이트는 예외 처리를 통해 성능 저하 없이 이용 가능합니다.
-- **정교회 테마 차단 화면**: 시각적으로 아름답고 경건한 디자인과 세라핌 로즈 신부님의 가르침을 통해 마음을 다잡게 도와줍니다.
-- **개인 최적화**: `content.js` 파일을 입맛대로 수정하여 본인만의 블랙리스트 키워드를 쉽게 추가할 수 있습니다.
+git clone https://github.com/Wadotu/OrthoGuard.git
 
-## 설치 방법 (Chrome/Edge 브라우저)
+```
+*   *Note: If you downloaded the ZIP file, make sure to extract it to a permanent folder.*
 
-아직 Chrome 웹 스토어에 등록되지 않은 개발 버전이므로, 아래 단계를 통해 수동으로 설치해야 합니다.
+### 2. Navigate to the Extensions Page
+Open your preferred browser and enter the appropriate address in the URL bar:
+*   **Chrome:** `chrome://extensions/`
+*   **Edge:** `edge://extensions/`
+*   **Other Chromium Browsers:** `browser-name://extensions/`
 
-### 1. 프로젝트 다운로드
-- 이 저장소의 **Release** 아래의 최신 버전을 클릭하여 'OrthoGuardExtension.zip'파일을 다운로드하거나, 터미널에서 다음 명령어를 입력하세요:
-  ```bash
-  git clone [https://github.com/Wadotu/OrthoGuard.git](https://github.com/Wadotu/OrthoGuard.git)
-###  2. 브라우저 확장 프로그램 관리 페이지 접속
-- 사용 중인 브라우저의 주소창에 아래 주소를 입력합니다.
+### 3. Enable Developer Mode
+*   Toggle the **Developer mode** switch in the top-right corner of the page to **ON**. This will reveal the manual installation controls.
 
-Chrome: chrome://extensions/
+### 4. Load the Unpacked Extension
+*   Click the **Load unpacked** button in the top-left corner.
+*   In the file selection dialog, choose the extracted `OrthoGuard` folder (the directory containing `manifest.json`) and click **Select Folder**.
 
-Edge: edge://extensions/
+### 5. Verify and Pin
+*   Once OrthoGuard appears in your extension list, the installation is complete.
+*   Click the **Puzzle icon (🧩)** in your browser toolbar and click the **Pin** icon next to OrthoGuard to easily monitor its active status.
 
-기타 브라우저: 브라우저이름(소문자)://extensions/
+---
 
-###  3. 개발자 모드(Developer Mode) 활성화
-- 페이지 우측 상단에 있는 개발자 모드(Developer mode) 스위치를 켭니다(ON).
+## Customization
 
-스위치를 켜면 상단에 새로운 버튼 메뉴들이 나타납니다.
+To tailor the filtering system to your personal spiritual boundaries:
+1. Open the project folder and locate the `content.js` file.
+2. Open the file in any text editor and locate the keyword/domain array.
+3. Add your custom keywords or blocklists, then save the file.
+4. Navigate back to your browser's extension management page (`://extensions/`) and click the **Reload (🔄)** icon on the OrthoGuard card to apply your changes instantly.
 
-###  4. 확장 프로그램 로드 (Load Unpacked)
-- 왼쪽 상단의 [압축 해제된 확장 프로그램 로드] (또는 Load unpacked) 버튼을 클릭합니다.
+---
 
-파일 선택창이 뜨면, 아까 압축을 해제한 OrthoGuard 폴더를 선택한 뒤 **[폴더 선택]**을 누릅니다.
+## Contributing
 
-### 5. 설치 확인 및 고정 (Pin)
-- 목록에 OrthoGuard가 나타나면 성공입니다.
+Contributions, bug reports, and suggestions—especially for expanding the library of spiritual quotes and icons—are highly welcome. Feel free to open an issue or submit a pull request.
 
-브라우저 우측 상단의 **퍼즐 아이콘(🧩)**을 눌러 OrthoGuard 옆의 고정(Pin) 아이콘을 클릭하면 실시간 작동 상태를 더 쉽게 확인할 수 있습니다.
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+```
